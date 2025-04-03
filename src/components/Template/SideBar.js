@@ -15,7 +15,7 @@ const SideBar = () => (
       <header>
         <h2>Collins Amayo</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:mayo16collins@gmail.com">email@me.com</a>
         </p>
       </header>
     </section>
@@ -23,13 +23,11 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{" "}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{" "}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I was VP of
-        Engineering at <a href="https://usesmileid.com">SmileID</a>, co-founder
-        and CTO of <a href="https://arthena.com">Arthena</a>, and co-founded{" "}
-        <a href="https://matroid.com">Matroid</a>.
+        Hi, I&apos;m Michael. I graduated from{" "}
+        <a href="https://www.rolofcomputeracademy.edu.ng/">
+          Rolof Computer Academy
+        </a>{" "}
+        and I am also a<a href="https://pti.edu.ng/">PTI</a> alumni
       </p>
       <ul className="actions">
         <li>
