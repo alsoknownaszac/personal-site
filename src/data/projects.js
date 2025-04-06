@@ -1,47 +1,45 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: "Golden Lakes",
+    subtitle: "Travel / Exploration Inspiration",
+    link: "https://goldenlakesxplore.com/",
+    image: "/images/projects/goldenlakes.png",
+    date: "2024",
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      "Golden Lakes Xplore is a travel‑inspiration webpage" +
+      "It invites visitors to discover Nigeria’s rich natural beauty—lush rainforests," +
+      "cascading waterfalls, majestic mountains and exotic wildlife ",
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: "Spreentar",
+    subtitle: "Logistics‑tech startup",
+    link: "https://www.spreentar.com/",
+    image: "/images/projects/spreentar.png",
+    date: "2024",
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      "Spreentar is a Nigerian logistics‑tech startup  " +
+      "offering a seamless, app‑based waybill service with door‑to‑door delivery nationwide",
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: "Project88 (SIDE PROJECT) ",
+    subtitle: "A kickstarter funded potato powered weather balloon.",
+    link: "https://project88.vercel.app/",
+    image: "/images/projects/project88.png",
+    date: "2023 - in progress",
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      "Project88 is a minimalist blog website for NoobNotes,  " +
+      "a joint “developer + designer” side‑project. ",
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: "Tixy (Mobile App - SIDE PROJECT)",
+    subtitle: "An Event Management Application",
+    image: "/images/projects/tixy.png",
+    date: "2024 - in progress",
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      "Imagine a multi-functional application that makes it easy to find various events, " +
+      "that helps secure your ticket, and that also functions as a great tool for event planner " +
+      "or anyone to easily plan and a manage an event.",
   },
 ];
 

@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Markdown from 'markdown-to-jsx';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import Markdown from "markdown-to-jsx";
 
-import Main from '../layouts/Main';
+import Main from "../layouts/Main";
 
 const About = () => {
-  const [markdown, setMarkdown] = useState('');
+  const [markdown, setMarkdown] = useState("");
 
   useEffect(() => {
-    import('../data/about.md').then((res) => {
+    import("../data/about.md").then((res) => {
       fetch(res.default)
         .then((r) => r.text())
         .then(setMarkdown);
@@ -17,11 +17,11 @@ const About = () => {
 
   const count = markdown
     .split(/\s+/)
-    .map((s) => s.replace(/\W/g, ''))
+    .map((s) => s.replace(/\W/g, ""))
     .filter((s) => s.length).length;
 
   return (
-    <Main title="About" description="Learn about Michael D'Angelo">
+    <Main title="About" description="All you need to know about Collins Amayo">
       <article className="post markdown" id="about">
         <header>
           <div className="title">

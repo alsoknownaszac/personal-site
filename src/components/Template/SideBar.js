@@ -23,11 +23,15 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I graduated from{" "}
+        Hey There, My name is Collins. alsoknownaszac, theletterz are my alias.
+        I graduated from{" "}
         <a href="https://www.rolofcomputeracademy.edu.ng/">
           Rolof Computer Academy
         </a>{" "}
-        and I am also a<a href="https://pti.edu.ng/">PTI</a> alumni
+        and I am also a <a href="https://pti.edu.ng/">PTI</a> alumni.
+        <br />
+        Fun fact: Once I discover something exciting, I tend to get completely
+        obsessed with it.
       </p>
       <ul className="actions">
         <li>
@@ -46,9 +50,10 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      {/* <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
-      </p> */}
+      <p className="copyright">
+        &copy; collins amayo
+        {/* <Link to="/">mldangelo.com</Link>. */}
+      </p>
     </section>
   </section>
 );

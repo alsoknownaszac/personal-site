@@ -14,21 +14,11 @@ const data = [
     label: "Github",
     icon: faGithub,
   },
-  // {
-  //   link: "https://www.instagram.com/dangelosaurus/",
-  //   label: "Instagram",
-  //   icon: faInstagram,
-  // },
   {
     link: "https://www.linkedin.com/in/collins-amayo-xxv",
     label: "LinkedIn",
     icon: faLinkedinIn,
   },
-  // {
-  //   link: "https://angel.co/michael-d-angelo",
-  //   label: "Angel List",
-  //   icon: faAngellist,
-  // },
   {
     link: "https://twitter.com/alsoknownaszac",
     label: "Twitter",

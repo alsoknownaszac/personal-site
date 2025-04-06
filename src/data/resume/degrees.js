@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: "Petroleum Training Institute",
+    degree: "Pertroleum Engineering and Gas Processing Technology",
+    link: "https://pti.edu.ng/",
+    year: 2017,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: "Rolof Computers Limited",
+    degree: "Certificate of Competency",
+    link: "https://www.rolofcomputeracademy.edu.ng/",
+    year: 2014,
   },
 ];
 

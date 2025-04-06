@@ -18,12 +18,12 @@ const routes = [
   },
   {
     label: "Blog",
-    path: "/stats",
+    path: "/blog",
   },
-  {
-    label: "Stats",
-    path: "/stats",
-  },
+  // {
+  //   label: "Stats",
+  //   path: "/stats",
+  // },
   {
     label: "Contact",
     path: "/contact",

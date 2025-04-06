@@ -28,5 +28,7 @@ module.exports = {
     "linebreak-style": 0,
     "import/prefer-default-export": 0,
     "operator-linebreak": 0,
+    "comma-dangle": 0,
+    "implicit-arrow-linebreak": 0,
   },
 };

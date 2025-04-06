@@ -1,5 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function Blog() {
-  return <div>Blog</div>;
-}
+import Main from "../layouts/Main";
+
+const Blog = () => (
+  <Main
+    title="Blog"
+    description="Articles that Collins or alias he.wrotes is proud of"
+  >
+    <article className="post" id="stats">
+      <header>
+        <div className="title">
+          <h2>
+            <Link to="/blog">Blog</Link>
+          </h2>
+        </div>
+      </header>
+      <div>blog post goes here</div>
+      <div>Coming soon</div>
+    </article>
+  </Main>
+);
+
+export default Blog;
