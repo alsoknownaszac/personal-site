@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 
 import ContactIcons from "../Contact/ContactIcons";
 
-const { PUBLIC_URL } =
-  "https://avatars.githubusercontent.com/u/77975763?s=400&u=fc0c711b116c5ad0ad64184fbca1db404b912d6d&v=4"; // set automatically from package.json:homepage
+const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const SideBar = () => (
   <section id="sidebar">
@@ -23,15 +22,15 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hey There, My name is Collins. alsoknownaszac, theletterz are my alias.
-        I graduated from{" "}
+        Hi There!. My name is Collins. alsoknownaszac, theletterz are my alias.
+        <br />I graduated from{" "}
         <a href="https://www.rolofcomputeracademy.edu.ng/">
           Rolof Computer Academy
         </a>{" "}
         and I am also a <a href="https://pti.edu.ng/">PTI</a> alumni.
         <br />
-        Fun fact: Once I discover something exciting, I tend to get completely
-        obsessed with it.
+        Fun fact: Once I discover something I find exciting, I tend to get
+        completely obsessed with it.
       </p>
       <ul className="actions">
         <li>
@@ -51,8 +50,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; collins amayo
-        {/* <Link to="/">mldangelo.com</Link>. */}
+        &copy; collins amayo <Link to="/">alsoknownaszac.github.io</Link>.
       </p>
     </section>
   </section>

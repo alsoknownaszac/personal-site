@@ -16,7 +16,8 @@ const Blog = () => (
           </h2>
         </div>
       </header>
-      <div>blog post goes here</div>
+      <div>Blog post goes here</div>
+      <br />
       <div>Coming soon</div>
     </article>
   </Main>

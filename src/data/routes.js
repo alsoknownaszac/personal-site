@@ -20,10 +20,6 @@ const routes = [
     label: "Blog",
     path: "/blog",
   },
-  // {
-  //   label: "Stats",
-  //   path: "/stats",
-  // },
   {
     label: "Contact",
     path: "/contact",
